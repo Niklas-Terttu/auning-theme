@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="main" class="wrap page-content"><h1>Her var der ingen maskiner.</h1><p>Siden findes ikke. Prøv at søge, eller gå tilbage til forsiden.</p><?php get_search_form(); ?><p><a class="btn" href="<?php echo esc_url(home_url('/')); ?>">Til forsiden</a></p></main><?php get_footer(); ?>

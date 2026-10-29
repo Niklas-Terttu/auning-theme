@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="main" class="wrap page-content"><?php while(have_posts()){the_post();if(!class_exists('Elementor\Plugin') || !Elementor\Plugin::$instance->db->is_built_with_elementor(get_the_ID())){the_title('<h1>','</h1>');}the_content();wp_link_pages();} ?></main><?php get_footer(); ?>
